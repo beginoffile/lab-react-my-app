@@ -122,6 +122,7 @@ const HelloWorld = (propiedades) => {
                         setFirstName(e.target.value)
                     }}
                     ></input>
+                </div>                    
                     <Input
                     title ="Last Name"
                     type="text"
@@ -142,7 +143,7 @@ const HelloWorld = (propiedades) => {
                     />
 
                     <input type="submit" value="Submit" className="btn btn-primary"/>
-                </div>
+
             </form>
 
             <div>
